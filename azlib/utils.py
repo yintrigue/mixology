@@ -18,10 +18,6 @@ from gensim.models import Word2Vec
 from sklearn.manifold import TSNE
 from sklearn.decomposition import PCA
 
-sys.path.append('./../')
-from Migrators.Utilities.utilities import get_files
-from Migrators.Food.food_recipe_pairing_migrator import make_df
-
 
 # ------------------------------------------------------------------------------
 # UTIL FUNCTIONS FOR PATH EXTRACTION
